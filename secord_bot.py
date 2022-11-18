@@ -6,7 +6,7 @@ from secord_modules import scan_port
 from secord_modules import check_ssl
 from secord_modules import fetch_webpage
 
-token = "OTI2Nzk5MjQ5ODUxNjk5MjIw.YdA7EA.minxADwzFmz6D382Swr420h6KDE"
+token = ""
 client = discord.Client()
 
 domains = {".com", ".net", ".edu", ".tr", ".org", ".int"}
