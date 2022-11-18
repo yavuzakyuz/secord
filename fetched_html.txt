@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+<script>
+        devamini_oku = 'Read more';
+        daralt = 'Daralt';
+    </script>
+<meta charset="utf-8"/>
+<meta content="width=device-width" name="viewport"/>
+<title>Computer Science and Engineering - Koç University</title>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+<link href="https://cs.ku.edu.tr/xmlrpc.php" rel="pingback"/>
+<link href="//cs.ku.edu.tr/wp-content/uploads/2019/12/favicon144x144.png" rel="icon" type="image/png"/>
+<meta content="noindex, nofollow" name="robots">
+<!-- This site is optimized with the Yoast SEO Premium plugin v3.4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta content="Koç University" name="description">
+<meta content="noindex,follow,noodp" name="robots"/>
+<link href="https://cs.ku.edu.tr/" rel="canonical">
+<meta content="en_US" property="og:locale"/>
+<meta content="website" property="og:type"/>
+<meta content="Computer Science and Engineering - Koç University" property="og:title"/>
+<meta content="Koç University" property="og:description"/>
+<meta content="https://cs.ku.edu.tr/" property="og:url"/>
+<meta content="Computer Science and Engineering" property="og:site_name"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Koç University" name="twitter:description"/>
+<meta content="Computer Science and Engineering - Koç University" name="twitter:title"/>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/cs.ku.edu.tr\/","name":"Computer Science and Engineering","potentialAction":{"@type":"SearchAction","target":"https:\/\/cs.ku.edu.tr\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO Premium plugin. -->
+<link href="//fonts.googleapis.com" rel="dns-prefetch">
+<link href="//s.w.org" rel="dns-prefetch">
+<link href="https://cs.ku.edu.tr/feed/" rel="alternate" title="Computer Science and Engineering » Feed" type="application/rss+xml"/>
+<link href="https://cs.ku.edu.tr/comments/feed/" rel="alternate" title="Computer Science and Engineering » Comments Feed" type="application/rss+xml"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cs.ku.edu.tr\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link href="https://cs.ku.edu.tr/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cs.ku.edu.tr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4" id="contact-form-7-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cs.ku.edu.tr/wp-content/plugins/unyson/framework/extensions/breadcrumbs/static/css/style.css?ver=5.7.1" id="fw-ext-breadcrumbs-add-css-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cs.ku.edu.tr/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.3" id="font-awesome-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/css/icomoon.css?ver=1.0" id="icomoon-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/css/font-awesome.min.css?ver=1.0" id="faw-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/css/main.min.css?ver=1642538455" id="maincss-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/css/alternate.css?ver=1642538455" id="alternatecss-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Lora%3A400%2C400i%2C700%2C700i&amp;subset=latin-ext&amp;ver=1" id="lorafont-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cs.ku.edu.tr/wp-content/themes/kuwp/style.css?ver=1642538455" id="appcss-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/academicons/css/academicons.min.css?ver=1" id="academicons-css" media="all" rel="stylesheet" type="text/css"/>
+<script id="jquery-core-js" src="https://cs.ku.edu.tr/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" type="text/javascript"></script>
+<script id="jquery-migrate-js" src="https://cs.ku.edu.tr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" type="text/javascript"></script>
+<link href="https://cs.ku.edu.tr/wp-json/" rel="https://api.w.org/"/><link href="https://cs.ku.edu.tr/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="https://cs.ku.edu.tr/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<meta content="WordPress 5.7.1" name="generator"/>
+<meta content="WPML ver:4.2.0 stt:1,54;" name="generator"/>
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WW58N2');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-82390347-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-82390347-6');
+</script>
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." name="generator"/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://cs.ku.edu.tr/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><link href="https://cs.ku.edu.tr/wp-content/uploads/2018/12/cropped-favicon144x144-32x32.png" rel="icon" sizes="32x32"/>
+<link href="https://cs.ku.edu.tr/wp-content/uploads/2018/12/cropped-favicon144x144-192x192.png" rel="icon" sizes="192x192"/>
+<link href="https://cs.ku.edu.tr/wp-content/uploads/2018/12/cropped-favicon144x144-180x180.png" rel="apple-touch-icon"/>
+<meta content="https://cs.ku.edu.tr/wp-content/uploads/2018/12/cropped-favicon144x144-270x270.png" name="msapplication-TileImage"/>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+</link></link></link></meta></meta></head>
+<body class="home blog masthead-fixed list-view full-width footer-widgets grid wpb-js-composer js-comp-ver-5.3 vc_responsive">
+<style>
+	/* Header Custom Theme Colors */
+	.main-header .top-bar{
+		background: 	}
+	.main-header .top-bar .top-bar-list .top-language a,
+	.main-header .top-bar .top-bar-list .top-bar-menu a{
+		color: 	}
+
+	/* Menu Custom Theme Colors */
+	.main-header .header-other-link{
+		background: ;
+	}
+	.main-header .header-other-link .other-link-menu>ul>li>a,
+	.main-header .header-other-link .other-right .other-search .icon:before{
+		color: ;
+	}
+	.main-header .header-other-link .other-right a.default-link+.other-search:before{
+		background: ;
+	}
+	.main-header .header-other-link .other-link-menu>ul>li.menu-dropdown:hover{
+		background: ;
+	}
+	.main-header .header-other-link .other-link-menu>ul>li.menu-dropdown:hover a{
+		color: ;
+	}
+	.main-header .header-other-link .other-link-menu>ul>li>ul{
+		background: ;
+			}
+	.main-header .header-other-link .other-link-menu>ul>li>ul>li a{
+		color: ;
+	}
+	
+	/* Entry Page Header Theme Custom Color */
+	.entry-info:after{
+		background: ;
+		opacity: .8;
+	}
+	.entry-info .top .text .title, .breadcrumb a{
+		color: ;
+	}
+	.general-under-content a, a{
+		color: ;
+	}
+
+	/* AppList Border */
+	.full-banner-slider .arrow-container .swiper-button.swiper-button-next,
+	.teacher-box-list .box,
+	.jobs-section-list .main .jobs-list .list a, .jobs-section-list .main .jobs-list .list .box-area,
+	footer.main-footer .footer-center .app-list a::before{
+		border-color: ;
+	}
+	.full-banner-slider .arrow-container .swiper-button.swiper-button-next:before,
+	.full-banner-slider .arrow-container .swiper-button.swiper-button-next:after,
+	.jobs-section-list .main .jobs-list .list a .in .more-info:before, .jobs-section-list .main .jobs-list .list .box-area .in .more-info:before,
+	.full-banner-slider .swiper-pagination .swiper-pagination-bullet{
+		background: ;
+	}
+	
+	
+
+	/* Footer Custom Theme Colors */
+	footer.main-footer .footer-top{
+		background: 	}
+	footer.main-footer .footer-top span.title{
+		color: 	}
+	footer.main-footer .footer-top nav.footer-social-media a em{
+		background: 	}
+	footer.main-footer .footer-top nav.footer-social-media a:after{
+		border-color: 	}
+	footer.main-footer .footer-top nav.footer-social-media a .icon:before{
+		color: 	}
+	footer.main-footer .footer-center{
+		background: 	}
+	footer.main-footer .footer-center .footer-col .navigation-title,
+	footer.main-footer .footer-center .footer-col .footer-navigation a,
+	footer.main-footer .footer-center .app-list span.title{
+		color: 	}
+	footer.main-footer .footer-center .footer-col .footer-navigation{
+		border-color: 	}
+	footer.main-footer .footer-center .footer-contact-info .in{
+		background: ;
+		color: 	}
+	footer.main-footer .footer-center .footer-contact-info:after{
+		border-color: 	}
+	footer.main-footer .footer-center .footer-contact-info .in .col span.title{
+		color: 	}
+	footer.main-footer .footer-bottom{
+		background: 	}
+	footer.main-footer .footer-bottom span.copyright-text{
+		color: 	}
+
+	/* 19b Modülü */
+	.person-detail-card-list .person-detail-card{
+		border-color: ;
+	}
+	.person-detail-card-list .person-detail-card .top-info a.route-link:before{
+		background: ;
+	}
+	
+	.wechat-logo {	    
+	    background-color: #4a4a4a;
+	    height:32px !important;
+	    width:32px !important;
+	    -webkit-mask-size:contain !important;
+	    -webkit-mask: url('/wp-content/themes/kuwp/assets/img/WeChat.svg') no-repeat center;
+	    mask: url('/wp-content/themes/kuwp/assets/img/WeChat.svg') no-repeat center;
+	    mask-size:contain !important;
+	}
+
+	a.wechat:hover .wechat-logo {
+	   background-color: white;
+	}
+	
+	footer.main-footer .footer-top nav.footer-social-media a.wechat:hover em {
+	    background-color: #51b03d !important;
+	}
+
+
+	.weibo-logo {	    
+	    background-color: #4a4a4a;
+	    height:32px !important;
+	    width:32px !important;
+	    -webkit-mask-size:contain !important;
+	    -webkit-mask: url('/wp-content/themes/kuwp/assets/img/weibo.svg') no-repeat center;
+	    mask: url('/wp-content/themes/kuwp/assets/img/weibo.svg') no-repeat center;
+	    mask-size:contain !important;
+	}
+
+	a.weibo:hover .weibo-logo {
+	   background-color: white;
+	}
+
+	footer.main-footer .footer-top nav.footer-social-media a.weibo:hover em {
+	    background-color: #51b03d !important;
+	}
+
+        .googlescholar-logo {
+           color: #4a4a4a;
+           font-size:30px;
+        }
+
+        a.googlescholar:hover .googlescholar-logo {
+           color: white;
+        }
+
+        footer.main-footer .footer-top nav.footer-social-media a.googlescholar:hover em {
+            background-color: #3378eb !important;
+        }
+
+
+        .researchgate-logo {
+           color: #4a4a4a;
+           font-size:30px;
+        }
+
+        a.researchgate:hover .researchgate-logo {
+           color: white;
+        }
+
+        footer.main-footer .footer-top nav.footer-social-media a.researchgate:hover em {
+            background-color: #59ccbb !important;
+        }
+
+
+
+</style>
+<!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="wrapper">
+<!-- ## Main Header -->
+<header class="main-header" id="mainHeader">
+<!-- ## Top bar -->
+<div class="top-bar">
+<div class="container">
+<a class="header-logo _img" href="https://cs.ku.edu.tr" title="KU"><img src="https://cs.ku.edu.tr/wp-content/uploads/2020/04/KU_ENG_COMP_LogoENG.jpg"/> </a>
+<div class="top-bar-list">
+<nav class="top-bar-menu">
+<a href="https://www.ku.edu.tr/en/prospective-students" target="_blank" title="">Prospective Students</a><a href="https://www.ku.edu.tr/en/koc-student" target="_blank" title="">KU Student</a><a href="https://www.ku.edu.tr/en/faculty" target="_blank" title="">Faculty</a><a href="http://mezun.ku.edu.tr/" target="_blank" title="">Alumni</a> </nav>
+<nav class="top-language">
+<a class="active" href="https://cs.ku.edu.tr">EN</a><a href="https://cs.ku.edu.tr/tr/">TR</a> </nav>
+<a class="header-search search-trigger" href="#"><i class="icon icon-search"></i></a>
+<i class="icon icon-hamburger-menu hamburger-menu"></i>
+</div>
+</div>
+</div>
+<!-- ## Header other link -->
+<div class="header-other-link">
+<div class="container">
+<nav class="other-link-menu">
+<ul>
+<li class="menu-dropdown"><a href="https://cs.ku.edu.tr/about/" target="" title="">About</a><ul><li><a href="https://cs.ku.edu.tr/about/mission-and-vision/" target="">Mission &amp; Vision</a></li><li><a href="https://cs.ku.edu.tr/about/facts/" target="">Facts</a></li><li><a href="https://cs.ku.edu.tr/about/advisory-board/" target="">Advisory Board</a></li><li><a href="https://cs.ku.edu.tr/about/contact/" target="">Contact</a></li></ul></li><li class="menu-dropdown"><a href="https://cs.ku.edu.tr/people/" target="" title="">People</a><ul><li><a href="https://cs.ku.edu.tr/people/department-head/" target="">Department Chair</a></li><li><a href="https://cs.ku.edu.tr/people/faculty/" target="">Faculty</a></li><li><a href="https://cs.ku.edu.tr/people/staff/" target="">Staff</a></li><li><a href="https://cs.ku.edu.tr/people/coordinators/" target="">Coordinators</a></li><li><a href="https://cs.ku.edu.tr/people/faculty-resources/" target="">Faculty Resources</a></li></ul></li><li class="menu-dropdown"><a href="https://cs.ku.edu.tr/research/" target="" title="">Research</a><ul><li><a href="https://cs.ku.edu.tr/research/research-area/" target="">Research Area</a></li><li><a href="https://cs.ku.edu.tr/research/research-labs/" target="">Research Labs</a></li></ul></li><li class="menu-dropdown"><a href="https://cs.ku.edu.tr/undergraduate/" target="" title="">Undergraduate</a><ul><li><a href="https://cs.ku.edu.tr/undergraduate/objectives-and-outcomes/" target="">Objectives and Outcomes</a></li><li><a href="https://cs.ku.edu.tr/undergraduate/ug-curriculum/" target="">Curriculum</a></li><li><a href="https://cs.ku.edu.tr/undergraduate/ug-courses/" target="">Courses</a></li><li><a href="https://cs.ku.edu.tr/undergraduate/tracks/" target="">Tracks</a></li><li><a href="https://cs.ku.edu.tr/undergraduate/summer-practice/" target="">Summer Practice</a></li><li><a href="https://cs.ku.edu.tr/undergraduate/exchange/" target="">Exchange</a></li><li><a href="https://cs.ku.edu.tr/double-major/" target="">Double Major</a></li></ul></li><li class="menu-dropdown"><a href="https://cs.ku.edu.tr/graduate/" target="" title="">Graduate</a><ul><li><a href="https://cs.ku.edu.tr/graduate/ms-program/" target="">MS Program</a></li><li><a href="https://cs.ku.edu.tr/graduate/phd-program/" target="">PhD Program</a></li><li><a href="https://cs.ku.edu.tr/graduate/ug-curriculum/" target="">Curriculum</a></li><li><a href="https://cs.ku.edu.tr/graduate/g-courses/" target="">Courses</a></li><li><a href="https://cs.ku.edu.tr/graduate/scholarships/" target="">Scholarships</a></li><li><a href="https://cs.ku.edu.tr/graduate/apply/" target="">Apply</a></li></ul></li><li class=""><a href="https://cs.ku.edu.tr/news/" target="" title="">News</a></li><li class="menu-dropdown"><a href="https://cs.ku.edu.tr/open-positions/" target="" title="">Open Positions</a><ul><li><a href="https://cs.ku.edu.tr/open-positions/faculty-positions/" target="">Faculty Positions</a></li><li><a href="https://cs.ku.edu.tr/open-positions/research-positions/" target="">Research Positions</a></li></ul></li><li class="menu-dropdown"><a href="#" target="" title="">KU</a><ul><li><a href="https://www.ku.edu.tr" target="_blank">Koç University</a></li><li><a href="https://eng.ku.edu.tr" target="_blank">College of Engineering</a></li><li><a href="https://vpaa.ku.edu.tr" target="_blank">Office of Vice President for Academic Affairs (VPAA)</a></li><li><a href="https://vprd.ku.edu.tr" target="_blank">Office of Vice President for Research and Development (VPRD)</a></li><li><a href="https://library.ku.edu.tr" target="_blank">Koç University Suna Kıraç Library</a></li></ul></li><li class=""><a href="https://new-trackit.ku.edu.tr/servicedesk/customer/portal/1014/group/1094" target="_blank" title="">TRACKIT</a></li> </ul>
+</nav>
+<div class="other-right">
+<a class="default-link" href=""></a>
+<a class="other-search search-trigger" href="#" title=""><i class="icon icon-search"></i></a>
+</div>
+</div>
+</div>
+</header>
+<div class="mobile-menu">
+<nav>
+<ul>
+<li class=""><a href="https://cs.ku.edu.tr/about/" title="">About</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/about/mission-and-vision/" title="">Mission &amp; Vision</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/about/facts/" title="">Facts</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/about/advisory-board/" title="">Advisory Board</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/about/contact/" title="">Contact</a></li><li class=""><a href="https://cs.ku.edu.tr/people/" title="">People</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/people/department-head/" title="">Department Chair</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/people/faculty/" title="">Faculty</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/people/staff/" title="">Staff</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/people/coordinators/" title="">Coordinators</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/people/faculty-resources/" title="">Faculty Resources</a></li><li class=""><a href="https://cs.ku.edu.tr/research/" title="">Research</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/research/research-area/" title="">Research Area</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/research/research-labs/" title="">Research Labs</a></li><li class=""><a href="https://cs.ku.edu.tr/undergraduate/" title="">Undergraduate</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/undergraduate/objectives-and-outcomes/" title="">Objectives and Outcomes</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/undergraduate/ug-curriculum/" title="">Curriculum</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/undergraduate/ug-courses/" title="">Courses</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/undergraduate/tracks/" title="">Tracks</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/undergraduate/summer-practice/" title="">Summer Practice</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/undergraduate/exchange/" title="">Exchange</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/double-major/" title="">Double Major</a></li><li class=""><a href="https://cs.ku.edu.tr/graduate/" title="">Graduate</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/graduate/ms-program/" title="">MS Program</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/graduate/phd-program/" title="">PhD Program</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/graduate/ug-curriculum/" title="">Curriculum</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/graduate/g-courses/" title="">Courses</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/graduate/scholarships/" title="">Scholarships</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/graduate/apply/" title="">Apply</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/news/" title="">News</a></li><li class=""><a href="https://cs.ku.edu.tr/open-positions/" title="">Open Positions</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/open-positions/faculty-positions/" title="">Faculty Positions</a></li><li class="child-m"><a href="https://cs.ku.edu.tr/open-positions/research-positions/" title="">Research Positions</a></li><li class=""><a href="#" title="">KU</a></li><li class="child-m"><a href="https://www.ku.edu.tr" title="">Koç University</a></li><li class="child-m"><a href="https://eng.ku.edu.tr" title="">College of Engineering</a></li><li class="child-m"><a href="https://vpaa.ku.edu.tr" title="">Office of Vice President for Academic Affairs (VPAA)</a></li><li class="child-m"><a href="https://vprd.ku.edu.tr" title="">Office of Vice President for Research and Development (VPRD)</a></li><li class="child-m"><a href="https://library.ku.edu.tr" title="">Koç University Suna Kıraç Library</a></li><li class="child-m"><a href="https://new-trackit.ku.edu.tr/servicedesk/customer/portal/1014/group/1094" title="">TRACKIT</a></li><li><a href="https://www.ku.edu.tr/en/prospective-students" title="">Prospective Students</a></li><li><a href="https://www.ku.edu.tr/en/koc-student" title="">KU Student</a></li><li><a href="https://www.ku.edu.tr/en/faculty" title="">Faculty</a></li><li><a href="http://mezun.ku.edu.tr/" title="">Alumni</a></li> </ul>
+</nav>
+</div>
+<div class="main-search">
+<div class="container">
+<div class="top">
+<div class="search-form">
+<form action="https://cs.ku.edu.tr" id="header_search_form">
+<span class="info-text">Type the word you want to search for and press ENTER.</span>
+<input autocomplete="off" class="main-search-input __header_s" name="s" placeholder="Page, people, word search …" type="search" value=""/>
+<i class="icon icon-search" onclick="if ($('.__header_s').val().length &gt; 0) $('#header_search_form').submit();" style="cursor: pointer; pointer-events: auto;"></i>
+</form>
+</div>
+<i class="icon icon-close"></i>
+</div>
+<!-- ## main area -->
+<div class="main-area">
+<div class="main-search-result">
+<div class="result-info"></div>
+<div class="row">
+<div class="col-md-12">
+<!-- <span class="section-name">Sayfalarda</span> -->
+<nav class="section-link search-found">
+</nav>
+</div>
+<!-- <div class="col-md-4">
+							<span class="section-name">Kişilerde</span>
+							<nav class="section-link">
+								<a href="#" title="">Alper <em>Kim</em>az</a>
+								<a href="#" title="">Murat <em>Kim</em> o</a>
+							</nav>
+						</div> -->
+</div>
+</div>
+<div class="link-list">
+<span class="title">A-Z Content, Page Guide</span>
+<div class="word-list">
+<a class="active" data-name="a" href="#search-a"><em>A</em></a><a data-name="c" href="#search-c"><em>C-Ç</em></a><a data-name="d" href="#search-d"><em>D</em></a><a data-name="e" href="#search-e"><em>E</em></a><a data-name="f" href="#search-f"><em>F</em></a><a data-name="g" href="#search-g"><em>G</em></a><a data-name="i" href="#search-i"><em>I-İ</em></a><a data-name="k" href="#search-k"><em>K</em></a><a data-name="m" href="#search-m"><em>M</em></a><a data-name="n" href="#search-n"><em>N</em></a><a data-name="o" href="#search-o"><em>O-Ö</em></a><a data-name="p" href="#search-p"><em>P</em></a><a data-name="r" href="#search-r"><em>R</em></a><a data-name="s" href="#search-s"><em>S-Ş</em></a><a data-name="t" href="#search-t"><em>T</em></a><a data-name="u" href="#search-u"><em>U-Ü</em></a> </div>
+<div class="link-list-container">
+<div "="" class="row word-list-container" id="search-" name=""><a class="mobile-link" href="#" title=""><em>"</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/news/best-artifact-award-at-euro-par-2020-conference/" title="">"Best Artifact" Award at Euro-Par 2020 Conference</a></nav></div></div><div class="row word-list-container" id="search-a" name="a"><a class="mobile-link" href="#" title=""><em>A</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/news/assist-prof-didem-unat-acm-sighp-emerging-woman-leader-in-technical-computing-award/" title="">Assist. Prof. Didem Unat, ACM SIGHP Emerging Woman Leader in Technical Computing Award</a><a href="https://cs.ku.edu.tr/all-news/" title="">All News</a><a href="https://cs.ku.edu.tr/all-events/" title="">All Events</a><a href="https://cs.ku.edu.tr/all-announcements/" title="">All Announcements</a><a href="https://cs.ku.edu.tr/undergraduate/ug-courses/ug-area-elective/" title="">Area Elective</a><a href="https://cs.ku.edu.tr/about/advisory-board/" title="">Advisory Board</a><a href="https://cs.ku.edu.tr/graduate/apply/" title="">Apply</a><a href="https://cs.ku.edu.tr/about/" title="">About</a><a href="https://cs.ku.edu.tr/events/applications-erasmus-worldwide-staff-exchange-program-now-open/" title="">Applications for Erasmus+ Worldwide Staff Exchange Program are now open!</a><a href="https://cs.ku.edu.tr/news/1462/" title="">Associate Professor T. Metin Sezgin from the Computer Engineering Department has been granted a TÜBİTAK 1001 grant!</a><a href="https://cs.ku.edu.tr/events/ai-meeting/" title="">AI Meeting</a><a href="https://cs.ku.edu.tr/news/assoc-dr-aykut-erdem-was-awarded-the-bagep-2021-given-by-the-science-academy/" title="">Assoc. Dr. Aykut Erdem was awarded the BAGEP 2021 given by the Science Academy</a></nav></div></div><div class="row word-list-container" id="search-c" name="c"><a class="mobile-link" href="#" title=""><em>C-Ç</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/people/coordinators/" title="">Coordinators</a><a href="https://cs.ku.edu.tr/events/ce-seminar-prof-dr-umit-senesen-data-science-methods-exploratory-data-analysis-eda-examples/" title="">CE Seminar by Prof. Dr. Ümit Şenesen-Data Science: Methods of exploratory data analysis (EDA) with examples</a><a href="https://cs.ku.edu.tr/undergraduate/ug-courses/ug-common-core/" title="">Common Core</a><a href="https://cs.ku.edu.tr/about/contact/" title="">Contact</a><a href="https://cs.ku.edu.tr/graduate/g-courses/" title="">Courses</a><a href="https://cs.ku.edu.tr/undergraduate/ug-curriculum/" title="">Curriculum</a><a href="https://cs.ku.edu.tr/curriculum-courses-cs/" title="">Curriculum Courses</a><a href="https://cs.ku.edu.tr/events/college-engineering-univ-101-seminar-13-11-2019-levent-beker/" title="">College of Engineering UNIV 101 Seminar, 13.11.2019, Levent Beker</a></nav></div></div><div class="row word-list-container" id="search-d" name="d"><a class="mobile-link" href="#" title=""><em>D</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/double-major/" title="">Double Major</a><a href="https://cs.ku.edu.tr/people/department-head/" title="">Department Chair</a><a href="https://cs.ku.edu.tr/news/dr-didem-unat-received-a-new-eurohpc-grant-towards-extreme-scale-technologies-and-applications/" title="">Dr. Didem Unat received a new EuroHPC grant - Towards Extreme Scale Technologies and Applications!</a><a href="https://cs.ku.edu.tr/news/dr-didem-unats-highly-ranked-sparcity-project-funded-by-the-european-high-performance-computing-joint-undertaking-eurohpc-ju-just-launched-on-april-1st/" title="">Dr. Didem Unat's highly ranked SparCity project funded by the European High Performance Computing Joint Undertaking (EuroHPC JU), just launched on April 1st.</a><a href="https://cs.ku.edu.tr/news/dr-didem-unat-is-awarded-with-an-erc-starting-grant-of-1-5m-eur-first-erc-in-computer-science-from-turkey-congratulations-on-her-big-achievement/" title="">Dr. Didem Unat is awarded with an ERC starting grant of 1.5M EUR. First ERC in Computer Science from Turkey! Congratulations on her big achievement.</a></nav></div></div><div class="row word-list-container" id="search-e" name="e"><a class="mobile-link" href="#" title=""><em>E</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/people/coordinators/exchange-coordinators/" title="">Exchange Coordinators</a><a href="https://cs.ku.edu.tr/undergraduate/exchange/" title="">Exchange</a></nav></div></div><div class="row word-list-container" id="search-f" name="f"><a class="mobile-link" href="#" title=""><em>F</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/people/faculty-resources/" title="">Faculty Resources</a><a href="https://cs.ku.edu.tr/about/facts/" title="">Facts</a><a href="https://cs.ku.edu.tr/people/faculty/" title="">Faculty</a><a href="https://cs.ku.edu.tr/open-positions/faculty-positions/" title="">Faculty Positions</a></nav></div></div><div class="row word-list-container" id="search-g" name="g"><a class="mobile-link" href="#" title=""><em>G</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/undergraduate/ug-courses/ug-general-elective/" title="">General Elective</a><a href="https://cs.ku.edu.tr/graduate/" title="">Graduate</a></nav></div></div><div class="row word-list-container" id="search-i" name="i"><a class="mobile-link" href="#" title=""><em>I-İ</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/people/coordinators/internship-coordinators/" title="">Internship Coordinators</a></nav></div></div><div class="row word-list-container" id="search-k" name="k"><a class="mobile-link" href="#" title=""><em>K</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/news/graduate-ai-fellowships-at-koc/" title="">KUIS AI Webinar</a><a href="https://cs.ku.edu.tr/news/koc-university-parallel-and-multicore-computing-lab-open-graduate-and-postdoc-positions-information-webinar/" title="">Koç University Parallel and Multicore Computing Lab Open Graduate and Postdoc Positions Information Webinar</a></nav></div></div><div class="row word-list-container" id="search-m" name="m"><a class="mobile-link" href="#" title=""><em>M</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/about/mission-and-vision/" title="">Mission &amp; Vision</a><a href="https://cs.ku.edu.tr/graduate/ms-program/" title="">MS Program</a></nav></div></div><div class="row word-list-container" id="search-n" name="n"><a class="mobile-link" href="#" title=""><em>N</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/news/" title="">News</a></nav></div></div><div class="row word-list-container" id="search-o" name="o"><a class="mobile-link" href="#" title=""><em>O-Ö</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/undergraduate/objectives-and-outcomes/" title="">Objectives and Outcomes</a><a href="https://cs.ku.edu.tr/open-positions/" title="">Open Positions</a></nav></div></div><div class="row word-list-container" id="search-p" name="p"><a class="mobile-link" href="#" title=""><em>P</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/graduate/program-overview/" title="">Program Overview</a><a href="https://cs.ku.edu.tr/graduate/phd-program/" title="">PhD Program</a><a href="https://cs.ku.edu.tr/news/prof-oznur-ozkasap-received-tbd2019/" title="">Prof. Öznur Özkasap received TBD 2019 Prof. Aydın Köksal Computer Engineering Science Award!</a><a href="https://cs.ku.edu.tr/people/" title="">People</a><a href="https://cs.ku.edu.tr/news/prof-oznur-ozkasap-was-selected-for-the-prestigious-international-list-of-n2women-2020-stars-in-computer-networking-and-communications/" title="">Prof. Öznur Özkasap was selected for the prestigious international list of "N2Women 2020: Stars in Computer Networking and Communications"</a></nav></div></div><div class="row word-list-container" id="search-r" name="r"><a class="mobile-link" href="#" title=""><em>R</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/undergraduate/ug-courses/ug-required-areas/" title="">Required Areas</a><a href="https://cs.ku.edu.tr/research/research-area/" title="">Research Area</a><a href="https://cs.ku.edu.tr/research/research-labs/" title="">Research Labs</a><a href="https://cs.ku.edu.tr/open-positions/research-positions/" title="">Research Positions</a><a href="https://cs.ku.edu.tr/research/" title="">Research</a></nav></div></div><div class="row word-list-container" id="search-s" name="s"><a class="mobile-link" href="#" title=""><em>S-Ş</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/sample-page/" title="">Sample Page</a><a href="https://cs.ku.edu.tr/people/staff/" title="">Staff</a><a href="https://cs.ku.edu.tr/undergraduate/summer-practice/" title="">Summer Practice</a><a href="https://cs.ku.edu.tr/graduate/scholarships/" title="">Scholarships</a></nav></div></div><div class="row word-list-container" id="search-t" name="t"><a class="mobile-link" href="#" title=""><em>T</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/undergraduate/tracks/" title="">Tracks</a></nav></div></div><div class="row word-list-container" id="search-u" name="u"><a class="mobile-link" href="#" title=""><em>U-Ü</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/undergraduate/" title="">Undergraduate</a></nav></div></div><div class="row word-list-container" id="search-2" name="2"><a class="mobile-link" href="#" title=""><em>2</em></a><div class="col-md-12"><nav><a href="https://cs.ku.edu.tr/news/2020-ieee-turkey-research-encouragement-award/" title="">2020 IEEE Turkey Research Encouragement Award</a></nav></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style></style>
+<!-- ## main -->
+<main class="main" id="main">
+<div class="under-page">
+<div class="under-page-in">
+<div class="container">
+<div class="rowa">
+<div class="vc_row wpb_row vc_row-fluid vc_row-no-padding" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<!-- ## Banner Slider -->
+<div class="full-banner-slider">
+<div class="swiper-container" id="fullBannerSlider">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<a class="slider-list" href="javascript:;" style="background-image:url('https://cs.ku.edu.tr/wp-content/uploads/2020/07/cs_banner.png')" target="">
+<img alt="" src="https://cs.ku.edu.tr/wp-content/uploads/2020/07/cs_banner.png"/>
+<div class="container">
+<div class="content">
+<h2 class="title"></h2>
+<br/>
+<p class="description"></p>
+</div>
+</div>
+</a>
+</div>
+<div class="swiper-slide">
+<a class="slider-list" href="javascript:;" style="background-image:url('https://cs.ku.edu.tr/wp-content/uploads/2019/11/2019-Mezuniyet-COMP01w-2-scaled.jpg')" target="">
+<img alt="" src="https://cs.ku.edu.tr/wp-content/uploads/2019/11/2019-Mezuniyet-COMP01w-2-scaled.jpg"/>
+<div class="container">
+<div class="content">
+<h2 class="title">Computer Engineering</h2>
+<br/>
+<p class="description"></p>
+</div>
+</div>
+</a>
+</div>
+<div class="swiper-slide">
+<a class="slider-list" href="javascript:;" style="background-image:url('https://cs.ku.edu.tr/wp-content/uploads/2019/11/COMP_GSSE.jpg')" target="">
+<img alt="" src="https://cs.ku.edu.tr/wp-content/uploads/2019/11/COMP_GSSE.jpg"/>
+<div class="container">
+<div class="content">
+<h2 class="title"></h2>
+<br/>
+<p class="description"></p>
+</div>
+</div>
+</a>
+</div>
+</div>
+<!-- Add Pagination -->
+<div class="swiper-pagination"></div>
+<!-- Add Arrows -->
+<div class="container arrow-container">
+<div class="swiper-button-next swiper-button"><i class="icon icon-right-arrow"></i></div>
+<div class="swiper-button-prev swiper-button"><i class="icon icon-left-arrow"></i></div>
+</div>
+</div>
+</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid vc_row-no-padding" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"> <div class="container">
+<!-- ## publications -->
+<div class="under-news-area standart-contaner-area">
+<div class="main">
+<div class="news-link-list">
+<a class="active" href="#" target="_blank" title="">
+                            Assist. Prof. Didem Unat, ACM SIGHP Emerging Woman Leader in Technical Computing Award                        </a>
+<a href="#" target="_blank" title="">
+                            Koç University Parallel and Multicore Computing Lab Open Graduate and Postdoc Positions Information Webinar                        </a>
+<a href="#" target="_blank" title="">
+                            KUIS AI Webinar                        </a>
+<a href="#" target="_blank" title="">
+                            Dr. Didem Unat’s highly ranked SparCity project funded by the European High Performance Computing Joint Undertaking (EuroHPC JU), just launched on April 1st.                        </a>
+<a href="#" target="_blank" title="">
+                            Assoc. Dr. Aykut Erdem was awarded the BAGEP 2021 given by the Science Academy                        </a>
+</div>
+<div class="news-container">
+<div class="swiper-container" id="newsSlider">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="list">
+<figure style="background-image:url('https://cs.ku.edu.tr/wp-content/uploads/2021/09/BRK04119-scaled.jpg')"></figure>
+<div class="content">
+<div class="out">
+<div class="in">
+<h3 class="title">
+                                                        Assist. Prof. Didem Unat, ACM SIGHP Emerging Woman Leader in Technical Computing Award                                                    </h3>
+<p>
+                                                        ---                                                    </p>
+<a class="link" href="https://cs.ku.edu.tr/news/assist-prof-didem-unat-acm-sighp-emerging-woman-leader-in-technical-computing-award/" target="_blank" title="">
+                                                        Go to news                                                    </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="list">
+<figure style="background-image:url('https://cs.ku.edu.tr/wp-content/uploads/2021/05/ParCore-Lab-Webinar-03.06.2021-IG-Post.png')"></figure>
+<div class="content">
+<div class="out">
+<div class="in">
+<h3 class="title">
+                                                        Koç University Parallel and Multicore Computing Lab Open Graduate and Postdoc Positions Information Webinar                                                    </h3>
+<p>
+                                                        ---                                                    </p>
+<a class="link" href="https://cs.ku.edu.tr/news/koc-university-parallel-and-multicore-computing-lab-open-graduate-and-postdoc-positions-information-webinar/" target="_blank" title="">
+                                                        Go to news                                                    </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="list">
+<figure style="background-image:url('https://cs.ku.edu.tr/wp-content/uploads/2021/05/KUISAI-Webinar-twitter-banner-scaled.jpg')"></figure>
+<div class="content">
+<div class="out">
+<div class="in">
+<h3 class="title">
+                                                        KUIS AI Webinar                                                    </h3>
+<p>
+                                                        ---                                                    </p>
+<a class="link" href="https://cs.ku.edu.tr/news/graduate-ai-fellowships-at-koc/" target="_blank" title="">
+                                                        Go to news                                                    </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="list">
+<figure style="background-image:url('https://cs.ku.edu.tr/wp-content/uploads/2020/10/DidemUnat-profile.png')"></figure>
+<div class="content">
+<div class="out">
+<div class="in">
+<h3 class="title">
+                                                        Dr. Didem Unat’s highly ranked SparCity project funded by the European High Performance Computing Joint Undertaking (EuroHPC JU), just launched on April 1st.                                                    </h3>
+<p>
+                                                        ---                                                    </p>
+<a class="link" href="https://cs.ku.edu.tr/news/dr-didem-unats-highly-ranked-sparcity-project-funded-by-the-european-high-performance-computing-joint-undertaking-eurohpc-ju-just-launched-on-april-1st/" target="_blank" title="">
+                                                        Go to news                                                    </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="list">
+<figure style="background-image:url('https://cs.ku.edu.tr/wp-content/uploads/2020/09/Aykut-Erdem.jpg')"></figure>
+<div class="content">
+<div class="out">
+<div class="in">
+<h3 class="title">
+                                                        Assoc. Dr. Aykut Erdem was awarded the BAGEP 2021 given by the Science Academy                                                    </h3>
+<p>
+                                                        ---                                                    </p>
+<a class="link" href="https://cs.ku.edu.tr/news/assoc-dr-aykut-erdem-was-awarded-the-bagep-2021-given-by-the-science-academy/" target="_blank" title="">
+                                                        Go to news                                                    </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-button-next swiper-button">
+<i class="icon icon-right-arrow"></i>
+</div>
+<div class="swiper-button-prev swiper-button">
+<i class="icon icon-left-arrow"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"> <!-- ## Activity Info -->
+<div class="activity-info standart-contaner-area">
+<div class="container">
+<div class="top">
+<h2 class="title"></h2>
+<a class="more-link" href="" style="margin-right: 35px;" title=""></a>
+</div>
+<div class="area general-tab">
+<div class="date-list">
+<div class="list tab-action active" data-index="1">
+<div class="in">
+<span class="number">27</span>
+<div class="other">
+<span class="mount">February</span>
+<span class="year">2020, Thursday</span>
+</div>
+</div>
+</div>
+<div class="list tab-action" data-index="2">
+<div class="in">
+<span class="number">29</span>
+<div class="other">
+<span class="mount">November</span>
+<span class="year">2019, Friday</span>
+</div>
+</div>
+</div>
+<div class="list tab-action" data-index="3">
+<div class="in">
+<span class="number">22</span>
+<div class="other">
+<span class="mount">November</span>
+<span class="year">2019, Friday</span>
+</div>
+</div>
+</div>
+<div class="list tab-action" data-index="4">
+<div class="in">
+<span class="number">13</span>
+<div class="other">
+<span class="mount">November</span>
+<span class="year">2019, Wednesday</span>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-content">
+<div class="content-list tab-content active" data-index="1">
+<div class="info">
+<h3 class="title">CE Seminar by Prof. Dr. Ümit Şenesen-Data Science: Methods of exploratory data analysis (EDA) with examples</h3>
+<p class="description">---</p>
+<a class="more-link" href="https://cs.ku.edu.tr/events/ce-seminar-prof-dr-umit-senesen-data-science-methods-exploratory-data-analysis-eda-examples/" title="">Read more</a>
+</div>
+<div class="other-info">
+<span class="list"><i class="icon icon-placeholder-4"></i>Location: <b>ENG Z27</b></span> <span class="list"><i class="icon icon-alarm-clock"></i>Time: <b>13:00</b></span> </div>
+</div>
+<div class="content-list tab-content" data-index="2">
+<div class="info">
+<h3 class="title">AI Meeting</h3>
+<p class="description">Speakers: Aykut Erdem, Erkut Erdem
+
+Procedural commonsense understanding, language guided image editing</p>
+<a class="more-link" href="https://cs.ku.edu.tr/events/ai-meeting/" title="">Read more</a>
+</div>
+<div class="other-info">
+<span class="list"><i class="icon icon-placeholder-4"></i>Location: <b>ENG 208</b></span> <span class="list"><i class="icon icon-alarm-clock"></i>Time: <b>14:30</b></span> </div>
+</div>
+<div class="content-list tab-content" data-index="3">
+<div class="info">
+<h3 class="title">Applications for Erasmus+ Worldwide Staff Exchange Program are now open!</h3>
+<p class="description">---</p>
+<a class="more-link" href="https://cs.ku.edu.tr/events/applications-erasmus-worldwide-staff-exchange-program-now-open/" title="">Read more</a>
+</div>
+<div class="other-info">
+</div>
+</div>
+<div class="content-list tab-content" data-index="4">
+<div class="info">
+<h3 class="title">College of Engineering UNIV 101 Seminar, 13.11.2019, Levent Beker</h3>
+<p class="description">---</p>
+<a class="more-link" href="https://cs.ku.edu.tr/events/college-engineering-univ-101-seminar-13-11-2019-levent-beker/" title="">Read more</a>
+</div>
+<div class="other-info">
+<span class="list"><i class="icon icon-alarm-clock"></i>Time: <b>17:30</b></span> <span class="list"><i class="icon icon-hourglass"></i>Duration: <b>1:00</b></span> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_row-no-padding" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="row no-gutter">
+<div class="col-lg-4">
+<a class="page-direction-link desc" href="/people/faculty/" target="_blank">
+<img src="https://cs.ku.edu.tr/wp-content/uploads/2019/11/Faculty-02.jpg"> <h4>FACULTY</h4>
+<p></p>
+</img></a>
+</div>
+<div class="col-lg-4">
+<a class="page-direction-link desc" href="/undergraduate/ug-curriculum/" target="_blank">
+<img src="https://cs.ku.edu.tr/wp-content/uploads/2019/11/COMP_GSSE.jpg"> <h4>UNDERGRADUATE</h4>
+<p></p>
+</img></a>
+</div>
+<div class="col-lg-4">
+<a class="page-direction-link desc" href="/research/research-area/" target="_blank">
+<img src="https://cs.ku.edu.tr/wp-content/uploads/2019/11/Computational1.png"> <h4>RESEARCH</h4>
+<p></p>
+</img></a>
+</div>
+<div class="col-lg-4">
+<a class="page-direction-link desc" href="/research/research-labs/" target="_blank">
+<img src="https://cs.ku.edu.tr/wp-content/uploads/2019/10/cosbi_research_web-300x103.jpg"> <h4>LABS</h4>
+<p></p>
+</img></a>
+</div>
+<div class="col-lg-4">
+<a class="page-direction-link desc" href="/graduate/" target="_blank">
+<img src="https://cs.ku.edu.tr/wp-content/uploads/2019/11/Kule.jpg"/> <h4>GRADUATE</h4>
+<p></p>
+</a>
+</div>
+<div class="col-lg-4">
+<a class="page-direction-link desc" href="/news/" target="_blank">
+<img src="https://cs.ku.edu.tr/wp-content/uploads/2019/11/BAGEP2018.jpg"/> <h4>NEWS</h4>
+<p></p>
+</a>
+</div>
+</div>
+</div></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="main-footer" id="mainFooter">
+<div class="footer-logo-area">
+<div class="container">
+</div>
+</div>
+<div class="footer-top">
+<div class="container">
+<span class="title">Koç University on Social Media</span>
+<nav class="footer-social-media">
+<a class="facebook" href="https://www.facebook.com/kocuniversity/" target="_blank"><em><i class="icon icon-facebook-icon"></i></em></a><a class="instagram" href="https://www.instagram.com/kocuniversity/" target="_blank"><em><i class="icon icon-instagram-icon"></i></em></a><a class="twitter" href="https://twitter.com/kocuniversity" target="_blank"><em><i class="icon icon-twitter-icon"></i></em></a><a class="youtube" href="http://www.youtube.com/KUKocUniversity" target="_blank"><em><i class="icon icon-youtube-icon"></i></em></a><a class="flickr" href="http://www.flickr.com/kocuniversity/" target="_blank"><em><i class="icon icon-flickr-icon"><i class="path1"></i><i class="path2"></i></i></em></a><a class="linkedin" href="https://www.linkedin.com/edu/school?id=17378" target="_blank"><em><i class="icon icon-linkedin-icon"></i></em></a> </nav>
+</div>
+</div>
+<div class="footer-center">
+<div class="container">
+<div class="col-list">
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="app-list">
+<span class="title">Download Our Mobile App</span>
+<a href="https://bit.ly/324ttCY" target="_blank"><img alt="" src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/img/theme/google-play.svg"/></a>
+<a href="https://apple.co/3Kt43R0" target="_blank"><img alt="" src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/img/theme/app-store.svg"/></a>
+</div>
+</div>
+<div class="col-md-8">
+<div class="footer-contact-info">
+<div class="in">
+<div class="row">
+<div class="col-lg-11 col-md-12">
+<div class="row">
+<div class="col-lg-4 col-md-4">
+<div class="col">
+<span class="title">Contact</span>
+<p class="address">Rumelifeneri Yolu 34450<br>
+Sarıyer, İstanbul / Türkiye</br></p>
+</div>
+</div>
+<div class="col-lg-4 col-md-4">
+<div class="col">
+<a class="info-text" href="" target=""></a>
+<a class="email" href="mailto:engineering@ku.edu.tr">engineering@ku.edu.tr</a>
+<div class="phone-list">
+<a href="tel:02123381748">Tel (central): 0212 338 1748</a><a href="tel:+902123381173">Fax: +90 212 338 1173</a> </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4">
+<div class="col">
+<a class="info-text" href="https://www.ku.edu.tr/en/contact/visiting-koc-university/" target="_blank">Access to Campuses and<br>
+Transportation Services</br></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<span class="copyright-text">© 2022 Koç University</span>
+</div>
+</footer>
+<link href="https://cs.ku.edu.tr/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.3555" id="js_composer_front-css" media="all" rel="stylesheet" type="text/css"/>
+<script id="contact-form-7-js-extra" type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/cs.ku.edu.tr\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script id="contact-form-7-js" src="https://cs.ku.edu.tr/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.4" type="text/javascript"></script>
+<script id="wp-embed-js" src="https://cs.ku.edu.tr/wp-includes/js/wp-embed.min.js?ver=5.7.1" type="text/javascript"></script>
+<script id="wpb_composer_front_js-js" src="https://cs.ku.edu.tr/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.3" type="text/javascript"></script>
+</div></body>
+</html>
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/fullcalendar/moment.min.js"></script>
+<!-- ## JAVASCRIPT -->
+<!-- ## jquery -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/jquery.min.js" type="text/javascript"></script>
+<!-- <script type="text/javascript" src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/jquery-migrate-3.3.1.min.js"></script> -->
+<!-- ## jquery UI -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/jquery-ui.min.js" type="text/javascript"></script>
+<!-- ## bootstrap -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/bootstrap.js" type="text/javascript"></script>
+<!-- ## selectBoxIt -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/jquery.selectBoxIt.min.js" type="text/javascript"></script>
+<!-- ## iCheck -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/icheck.min.js" type="text/javascript"></script>
+<!-- ## Swiper -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/swiper.min.js" type="text/javascript"></script>
+<!-- ## Masonry -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/masonry.pkgd.min.js" type="text/javascript"></script>
+<!-- ## Isotope -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/isotope.pkgd.min.js" type="text/javascript"></script>
+<!-- ## Light Gallery -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/lightgallery.min.js" type="text/javascript"></script>
+<!-- ## Light Gallery Thumbnail -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/lg-thumbnail.min.js" type="text/javascript"></script>
+<!-- ## Lity -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/lity.min.js" type="text/javascript"></script>
+<!-- ## Light Gallery Thumbnail -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/circle-progress.min.js" type="text/javascript"></script>
+<!-- ## Jquery Typeahead -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/jquery.typeahead.min.js" type="text/javascript"></script>
+<!-- <script src='https://fullcalendar.io/js/fullcalendar-3.6.1/lib/moment.min.js'></script> -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/fullcalendar/fullcalendar.min.js?v=21512"></script>
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/fullcalendar/gcal.min.js"></script>
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/libs/fullcalendar/locale-all.js?v=215"></script>
+<!-- <script src='https://fullcalendar.io/js/fullcalendar-3.6.1/locale-all.js'></script> -->
+<!-- <script src='https://fullcalendar.io/js/fullcalendar-3.6.1/fullcalendar.min.js'></script> -->
+<!-- <script src='https://fullcalendar.io/js/fullcalendar-3.6.1/gcal.min.js'></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDm2LCLse9E7-3T5NI2uoNYW-H5_IedEIg"></script>
+<!-- ## Custom Script -->
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/assets/js/script.js?v=1642538455" type="text/javascript"></script>
+<script src="https://cs.ku.edu.tr/wp-content/themes/kuwp/app.js?v=1642538455" type="text/javascript"></script>
+<input id="ajax-search" type="hidden" value="idle"/>
+<script>
+	jQuery(document).ready(function($){
+		
+		function debounce(fn, delay) {
+		  var timer = null;
+		  return function () {
+			var context = this, args = arguments;
+			clearTimeout(timer);
+			timer = setTimeout(function () {
+			  fn.apply(context, args);
+			}, delay);
+		  };
+		}
+
+		var aurl = 'https://cs.ku.edu.tr/wp-admin/admin-ajax.php';
+
+		// ajax search
+		$('.main-search-input').on('keydown keyup', debounce(function(e) {
+			var keywords = $('.main-search-input').val();
+
+			if (e.altKey || e.ctrlKey || e.shiftKey || e.which == 13) { } else {
+
+				var aj = $('#ajax-search').val();
+
+				if (keywords.length > 2 && aj == "idle") {
+					$(".result-info").html('Searching…');
+					// $('#ajax-search').val('working');
+					$.ajax({
+						type: 'post',
+						url: aurl,
+						data: '_post=search&keywords='+keywords,
+						success: function (r) {
+							$('body').append(r);
+							$('#ajax-search').val('a');
+
+							setTimeout(function() {
+								$('#ajax-search').val('idle');
+							}, 500);
+						}
+					});
+				}
+				else {
+					$(".result-info").html('Enter at least 3 characters or more.');
+					$(".search-found").html(""); 
+				}
+				
+			}
+
+
+		}, 450));
+
+
+		$('body').on('change', 'select[name=select_milestone-year]', function () {
+				var year = $(this).val();
+				console.log(year);
+				if (year == "all") {
+					$('.vertical-timeline').show();
+				}
+				else {
+					$('.vertical-timeline').hide();
+					$('.__milestone-year-'+year).show();
+				}
+		});
+
+		(function($) {
+			$.fn.changeElementType = function(newType) {
+				var attrs = {};
+
+				$.each(this[0].attributes, function(idx, attr) {
+					attrs[attr.nodeName] = attr.nodeValue;
+				});
+
+				this.replaceWith(function() {
+					return $("<" + newType + "/>", attrs).append($(this).contents());
+				});
+			}
+		})(jQuery);
+	
+		
+		$("form.under-contact-form input, form.under-contact-form textarea").on('keyup keydown', function () {
+				var val = $(this).val();
+				
+				if (val) $(this).addClass('has_val');
+				else $(this).removeClass('has_val');
+		});
+
+
+		$("form.under-contact-form").each(function () {
+
+			$(this).find('select').each(function() {
+				$(this).addClass('special-select change-tab');
+				$(this).parent().addClass('primary-select-area');
+				$(this).parent().changeElementType('div');
+				$(this).parent().parent().addClass('col-md-8');
+				$(this).parent().parent().changeElementType('div');
+			});
+
+			$(this).find('input[type=text]').each(function () {
+				$(this).addClass('line-primary-input');
+				var placeholder = '';
+				if ($(this).attr('placeholder')) placeholder = $(this).attr('placeholder');
+				$(this).parent().append('<div style="display: inline-block;" class="line-title">'+placeholder+'</div>');
+				$(this).attr('placeholder', '');
+				$(this).parent().changeElementType("label");
+				$(this).parent().addClass('line-input');
+				$(this).parent().parent().changeElementType('div');
+				$(this).parent().parent().addClass('col-md-6');
+
+			});
+
+			$(this).find('input[type=email]').each(function () {
+				$(this).addClass('line-primary-input');
+				var placeholder = '';
+				if ($(this).attr('placeholder')) placeholder = $(this).attr('placeholder');
+				$(this).parent().append('<div style="display: inline-block;" class="line-title">'+placeholder+'</div>');
+				$(this).attr('placeholder', '');
+				$(this).parent().changeElementType("label");
+				$(this).parent().addClass('line-input');
+				$(this).parent().parent().changeElementType('div');
+				$(this).parent().parent().addClass('col-md-6');
+
+			});
+
+
+			$(this).find('textarea').each(function () {
+				$(this).addClass('line-primary-input');
+				var placeholder = '';
+				if ($(this).attr('placeholder')) placeholder = $(this).attr('placeholder');
+				$(this).parent().append('<div style="display: inline-block;" class="line-title">'+placeholder+'</div>');
+				$(this).attr('placeholder', '');
+				$(this).parent().changeElementType("label");
+				$(this).parent().addClass('line-input');
+				$(this).parent().parent().changeElementType('div');
+				$(this).parent().parent().addClass('col-md-12');
+			});
+
+			$(this).find('input[type=submit]').each(function() {
+
+				$(this).addClass('button-style black small inline');
+				var val = $(this).val();
+				$(this).parent().changeElementType('div');
+				$(this).changeElementType('button');
+			});
+
+			$(this).find('button[value]').each(function() {
+				$(this).parent().addClass('line-input');
+				$(this).html('<span><em>'+$(this).attr('value')+"</em></span>");
+			});
+
+
+			$(".special-select").selectBoxIt();
+
+
+		});
+		
+		
+
+			});
+</script>
