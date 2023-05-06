@@ -1,7 +1,6 @@
 # secord
 server-wide security solution for discord! 
 
-[secordpdf.pdf](https://github.com/yavuzakyuz/secord/files/11412472/secordpdf.pdf)
 ![secordppt 001](https://user-images.githubusercontent.com/56271907/236627929-8c9a6e9f-f2fa-455b-8aed-c292bfdab9ac.jpeg)
 ![secordppt 002](https://user-images.githubusercontent.com/56271907/236627933-c7384bb4-adb1-44e0-b33e-be56b6cbff46.jpeg)
 ![secordppt 003](https://user-images.githubusercontent.com/56271907/236627935-3a708a5f-cb16-4d1c-80ca-83405502f76c.jpeg)
